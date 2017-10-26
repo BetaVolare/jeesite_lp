@@ -28,8 +28,13 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
 	
     private static final char SEPARATOR = '_';
     private static final String CHARSET_NAME = "UTF-8";
-    
-    /**
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+
+	/**
      * 转换为字节数组
      * @param str
      * @return
